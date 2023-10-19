@@ -1,0 +1,45 @@
+.menu{
+    background-color: transparent !important;
+}
+
+.banner{
+    background-image: url("../assets/img/hallo.jpg");
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.banner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5%;
+    z-index: -1;
+}
+
+.banner2{
+    background-image: url("../assets/img/hallo2.jpg");
+    padding: 25%;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.banner2::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5%;
+    z-index: -1;
+}
+
+.fondo{
+    background-color: #E67E22;
+}
